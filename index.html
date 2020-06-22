@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/nomalize/normalize.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script  async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCWQGFAEq8B7yfhZGVmHaM7Tc62sFxYhPo&callback=initMap">
+    </script>
+    <title>Turbus</title>
+</head>
+
+<body>
+
+    <!-- secccion header -->
+    <header class="header">
+        <div>
+            <nav>
+                <div class="container">
+                    <h1>turbus</h1>
+                    <ul>
+                        <li>
+                            <h2>share</h2>
+                            <span><i class="fas fa-share-alt"></i></span>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="container">
+            <div class="img-background"></div>
+        </div>
+    </header>
+
+    <!-- seccion principal -->
+    <section class="sectionMain">
+        <div class="container">
+            <div class="text">
+                <p>
+                    Conoce nuestro programa de viajero frecuente y recibe beneficios de
+                    verdad
+                </p>
+            </div>
+            <div class="icons row">
+                <div class="icon col-3"><img src="./img/tweenway.png" alt=""></div>
+                <div class="icon col-3"><img src="./img/wendys.png" alt=""></div>
+                <div class="icon col-3"><img src="./img/conaripe.jpg" alt=""></div>
+                <div class="icon col-3"><img src="./img/handscompany.png" alt=""></div>
+                <div class="icon col-3"><img src="./img/saxonline.jpg" alt=""></div>
+                <div class="icon col-3"><img src="./img/pillin.jpg" alt=""></div>
+                <div class="icon col-3"><img src="./img/juanmaestro.jpg" alt=""></div>
+                <div class="icon col-3"><img src="./img/patagoniapucon_.jpg" alt=""></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- seccion inscripcion -->
+    <section class="sectionRegistration">
+        <div class="container">
+            <div class="text">
+                <p>
+                    Inscribete en TurClub, obtén beneficios especiales, descuentos y
+                    mucho más!
+                </p>
+            </div>
+            <div class="button-container">
+                <button type="button" class="button">Ir a TurClub</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- seccion map -->
+    <section class="sectionMap">
+        <div class="container">
+            <div class="text">
+                <p>Nuestros destinos en el programa de viajero frecuente</p>
+            </div>
+            <div class="map-container">
+                <div class='list'>
+                    <div class="textMap">
+                        <h2>Seleccionar Destino</h2>
+                    </div>
+                    <div class="listGroup">
+                        <ul id="lista">
+                        </ul>
+                    </div>
+                </div>
+                <div id="map" class="map">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- seccion footer -->
+    <footer>
+        <div class="container">
+            <div class="logo col-12">
+                <h1>turbus</h1>
+            </div>
+            <div class="info">
+                <div class="block-info">
+                    <div class="title">
+                        <h4>Empresa de Transporte Rurales Ltda.</h4>
+                    </div>
+                    <ul class="list-info">
+                        <li>
+                            <span><i class="fas fa-map-marker-alt"></i></span>
+                            <p>
+                                Direccion: Jesus Diez Martinez
+                                800, Estacion Central, Santiago de
+                                Chile.
+                            </p>
+                        </li>
+                        <li>
+                            <span><i class="fas fa-mobile-alt"></i></span>
+                            <p>
+                                Telefono 228227500
+                            </p>
+                        </li>
+                        <li>
+                            <span><i class="fas fa-envelope"></i></span>
+                            <p>
+                                Email: atencion_clientes@turbus.cl
+
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="block-info center">
+                    <div class="title">
+                        <h4>Mas sobre Tur Bus Ltda.</h4>
+                    </div>
+                    <ul class="list-info">
+                        <li>Historia</li>
+                        <li>Trabaja con nosotros</li>
+                        <li>Condiciones</li>
+                    </ul>
+                </div>
+                <div class="block-info right">
+                    <div class="title">
+                        <h4>Mas sobre Tur Bus Ltda.</h4>
+                    </div>
+                    <ul class="list-info">
+                        <li>Venta de Pasajes</li>
+                        <li>Aeropuerto</li>
+                        <li>Arriendo de buses</li>
+                        <li>Recarga de celular</li>
+                        <li>Venta de buses</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+
+   
+    <script src="/maps/documentation/javascript/examples/markerclusterer/markerclustererplus@4.0.1.min.js"></script>
+    <script src="assets/js/markerclusterer_compiled.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-marker-clusterer/1.0.0/markerclusterer_compiled.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
